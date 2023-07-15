@@ -1,6 +1,6 @@
 package com.group.libraryapp.controller.user;
 
-import com.group.libraryapp.domain.user.UserService;
+import com.group.libraryapp.service.user.UserService;
 import com.group.libraryapp.dto.user.request.UserCreateRequest;
 import com.group.libraryapp.dto.user.request.UserUpdateRequest;
 import com.group.libraryapp.dto.user.response.UserResponse;
