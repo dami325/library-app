@@ -4,6 +4,7 @@ plugins {
     id 'java'
     id 'org.jetbrains.kotlin.jvm' version '1.6.21' // 코틀린
     id 'org.jetbrains.kotlin.plugin.jpa' version '1.6.21'
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.6.21' // 스프링 빈 클래스를 자동으로 열어줌 일일히 open 붙이지 않게
 }
 
 group = 'com.group'
